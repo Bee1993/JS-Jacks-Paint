@@ -38,17 +38,17 @@ function getProductInfo(partNumber) {
     
     switch (partNumber) {
         case 'pn1': // set variables for price and color name and invoke a function to update the price            
-            price = '$19.99'
+            price = '$14.99'
             colorName = 'Lime Green'
             updatePrice(colorName, price)           
             break;           
         case 'pn2': // set variables for price and color name and invoke a function to update the price  
-            price = '$12.99'
+            price = '$11.14'
             colorName = 'Medium Brown' 
             updatePrice(colorName, price)     
             break;            
         case 'pn3': // set variables for price and color name and invoke a function to update the price  
-            price = '$11.99'
+            price = '$22.99'
             colorName = 'Royal Blue'   
             updatePrice(colorName, price)   
             break;   
@@ -58,12 +58,12 @@ function getProductInfo(partNumber) {
             updatePrice(colorName, price)   
             break;   
         case 'pn5': // set variables for price and color name and invoke a function to update the price  
-            price = '$9.99'
+            price = '$21.98'
             colorName = 'Solid White' 
             updatePrice(colorName, price)              
             break;   
         case 'pn6': // set variables for price and color name and invoke a function to update the price  
-            price = '$15.99'
+            price = '$4.99'
             colorName = 'Solid Black'   
             updatePrice(colorName, price)            
             break;   
