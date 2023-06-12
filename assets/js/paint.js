@@ -78,7 +78,7 @@ function getProductInfo(partNumber) {
             updatePrice(colorName, price)         
             break;   
         case 'pn9': // set variables for price and color name and invoke a function to update the price  
-            price = '$17.99'
+            price = '$14.99'
             colorName = 'Bright Yellow'                       
             updatePrice(colorName, price)   
             break;   
